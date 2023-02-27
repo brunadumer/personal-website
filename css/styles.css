@@ -9,7 +9,7 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     color: #66BFBF;
-    line-height: 2rem;
+    line-height: 5rem;
 }
 
 h2 {
@@ -56,7 +56,7 @@ hr {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: double;
+    line-height: 5rem;
 }
 
 .top-container {
@@ -66,7 +66,7 @@ hr {
 }
 
 .middle-container {
-    line-height: 2rem;
+    line-height: 5rem;
 }
 
 .bottom-container {
@@ -97,7 +97,7 @@ hr {
 }
 
 .contact-me {
-    line-height: 2rem;
+    line-height: 5rem;
 }
 
 
