@@ -1,8 +1,8 @@
 body {
+    color: #40514E;
     margin: 0;
-    text-align:center;
+    text-align: center;
     font-family: 'Merriweather', serif;
-    line-height: 75px;
 }
 
 h1 {
@@ -10,6 +10,7 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     color: #66BFBF;
+    line-height: 2;
 }
 
 h2 {
@@ -17,6 +18,7 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -26,10 +28,16 @@ h3 {
 
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 p {
-    color: #40514E
+    line-height: 2;
 }
 
 hr {
@@ -37,7 +45,6 @@ hr {
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
-
 }
 
 .icon-pc {
@@ -64,10 +71,13 @@ hr {
     padding-top:100px;
 }
 
+.middle-container {
+    margin: 100px 0;
+}
+
 .bottom-container {
     background-color: #66BFBF;
-    margin-top: 50px;
-    padding: 40px;
+    padding: 50px 0 20px;
 }
 
 .profile-picture {
@@ -77,22 +87,34 @@ hr {
 
 .bottom-cloud {
     position: absolute;
-    left:300px;
+    left:250px;
     bottom: 300px;
 }
 
 .top-cloud {
     position: absolute;
-    right:300px;
-    top:50px;
+    right: 300px;
+    top: 40px;
 }
 
 .pro {
     text-decoration: underline;
 }
 
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
 .rights {
     color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .btn {
