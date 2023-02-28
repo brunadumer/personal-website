@@ -1,7 +1,8 @@
-body{
+body {
     margin: 0;
     text-align:center;
     font-family: 'Merriweather', serif;
+    line-height: 50px;
 }
 
 h1 {
@@ -9,7 +10,6 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     color: #66BFBF;
-    line-height: 3em;
 }
 
 h2 {
@@ -56,17 +56,12 @@ hr {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 3em;
 }
 
 .top-container {
     background-color: #EAF6F6;
     position:relative;
     padding-top:100px;
-}
-
-.middle-container {
-    line-height: 3em;
 }
 
 .bottom-container {
@@ -95,11 +90,6 @@ hr {
 .pro {
     text-decoration: underline;
 }
-
-.contact-me {
-    line-height: 3em;
-}
-
 
 .rights {
     color: #EAF6F6;
